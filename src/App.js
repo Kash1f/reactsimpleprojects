@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
+import './App.css'
 
 const App = () => {
+
+  const purple = "#8e44ad";
+
+  const [bg, setBg] = useState(purple);
+
+  const bgChange = () => {
+  // console.log('clicked');
+};
   return (
-    <div>App</div>
+    <>
+    <div style={{backgroundColor: bg}}>
+       <button onClick={bgChange}>Click Me</button>
+    </div>
+    </>
   )
 }
 
