@@ -5,7 +5,10 @@ const AppuseState = () => {
 
     const [] = useState();
 
+    const IncNum = () => {
+        
 
+    }
 
 
   return (
