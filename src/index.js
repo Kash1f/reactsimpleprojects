@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App2showtime from './App2showtime';
 import reportWebVitals from './reportWebVitals';
+import AppuseState from './AppuseState'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App2showtime />
+    <AppuseState />
   </React.StrictMode>
 );
 

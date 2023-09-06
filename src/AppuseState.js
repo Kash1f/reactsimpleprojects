@@ -3,19 +3,16 @@ import './App.css'
 
 const AppuseState = () => {
 
-    const [] = useState();
+    const [count, setCount] = useState(0);
 
-    const IncNum = () => {
-        
-
+    let IncNum = () => {
+        setCount(count+1);
     }
-
 
   return (
     <>
-    <h1>{}</h1>
-
-    <button onClick={IncNum}></button>
+    <h1>{count}</h1>
+    <button onClick={IncNum}>Count</button>
     
     </>
   )
