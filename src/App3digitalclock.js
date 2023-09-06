@@ -4,15 +4,21 @@ const App3digitalclock = () => {
 
   let time = new Date().toLocaleTimeString();
 
-  const [ctime, setCtime] = useState(time)
+  const [ctime, setCtime] = useState(time);
 
-
+  
 
 
 
 
   return (
-    <div>App3digitalclock</div>
+   <>
+    <h1>{ctime}</h1>
+    <button onClick={}></button>
+   
+   
+   
+   </>
   )
 }
 
