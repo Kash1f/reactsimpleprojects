@@ -4,11 +4,12 @@ import './index.css';
 import App2showtime from './App2showtime';
 import reportWebVitals from './reportWebVitals';
 import AppuseState from './AppuseState'
+import App3digitalclock from './App3digitalclock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppuseState />
+    <App3digitalclock />
   </React.StrictMode>
 );
 

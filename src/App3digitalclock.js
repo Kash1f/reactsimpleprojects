@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './App.css'
 
 const App3digitalclock = () => {
 
@@ -6,18 +7,16 @@ const App3digitalclock = () => {
 
   const [ctime, setCtime] = useState(time);
 
-  
+  const UpdateTime = () => {
+    let time = new Date().toLocaleTimeString();
+    setCtime(time);
+  }
 
+  setInterval(UpdateTime,1000);
 
-
-
-  return (
+return (
    <>
     <h1>{ctime}</h1>
-    <button onClick={}></button>
-   
-   
-   
    </>
   )
 }
