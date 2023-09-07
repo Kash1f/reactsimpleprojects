@@ -9,6 +9,11 @@ const App = () => {
 
   const bgChange = () => {
   // console.log('clicked');
+  let newBg = '#34495e'
+  setBg(newBg);
+
+
+  
 };
   return (
     <>
