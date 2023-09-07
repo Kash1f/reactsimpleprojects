@@ -11,12 +11,12 @@ const App2showtime = () => {
         setCtime(newTime);
     }
 
-  return (
-    <>
-   <h1>{ctime}</h1>
-   <button onClick={UpdateTime}>Get Time</button>
-    </>
-  )
+return (
+  <>
+  <h1>{ctime}</h1>
+  <button onClick={UpdateTime}>Get Time</button>
+  </>
+)
 }
 
 

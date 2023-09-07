@@ -9,13 +9,13 @@ const AppuseState = () => {
         setCount(count+1);
     }
 
-  return (
+return (
     <>
     <h1>{count}</h1>
     <button onClick={IncNum}>Count</button>
     
     </>
-  )
+)
 }
 
 export default AppuseState
