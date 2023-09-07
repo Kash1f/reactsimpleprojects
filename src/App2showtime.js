@@ -9,7 +9,7 @@ const App2showtime = () => {
     const UpdateTime = () => {
         let newTime = new Date().toLocaleTimeString();
         setCtime(newTime);
-    }
+}
 
 return (
   <>
@@ -18,6 +18,5 @@ return (
   </>
 )
 }
-
 
 export default App2showtime;
