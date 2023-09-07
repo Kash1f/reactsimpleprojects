@@ -10,7 +10,7 @@ const App = () => {
   const bgChange = () => {
   // console.log('clicked');
   let newBg = '#34495e'
-  setBg(newBg);
+  setBg(newBg);  //setBg will have newBg variable inside it which makes the curret value of bg=newBg as it is inside the function of setBg which updates the function according to hooks
 
 
   
