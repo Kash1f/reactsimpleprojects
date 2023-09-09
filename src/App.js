@@ -15,13 +15,12 @@ const App = () => {
   setBg(newBg);  //setBg will have newBg variable inside it which makes the curret value of bg=newBg as it is inside the function of setBg which updates the function according to hooks
 
   setName('Changed');
-  };
+};
 
   const bgBack = () => {
     setBg('orange');
-    setName('Damnn');
-
-  };
+    setName('Back');
+};
   
 
 return (
