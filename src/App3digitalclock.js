@@ -10,7 +10,7 @@ const App3digitalclock = () => {
   const UpdateTime = () => {
     let time = new Date().toLocaleTimeString();
     setCtime(time);
-  }
+}
 
   setInterval(UpdateTime,1000);
 
