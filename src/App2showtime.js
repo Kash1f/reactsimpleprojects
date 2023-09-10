@@ -3,7 +3,7 @@ import './App.css'
 
 const App2showtime = () => {
 
-    let newTime = new Date().toLocaleTimeString();
+    const newTime = new Date().toLocaleTimeString();
     const [ctime, setCtime] = useState(newTime);
 
     const UpdateTime = () => {
