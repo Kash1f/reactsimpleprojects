@@ -3,15 +3,15 @@ import './App.css'
 
 const App3digitalclock = () => {
 
-  const time = new Date().toLocaleTimeString();
+  let time = new Date().toLocaleTimeString();
   const [ctime, setCtime] = useState(time);
 
-  const UpdateTime = () => {
+  let UpdateTime = () => {
     const time = new Date().toLocaleTimeString();
     setCtime(time);
 }
 
-  setInterval(UpdateTime,1000);
+  setInterval(UpdateTime, 2000);
 
 return (
     <>
